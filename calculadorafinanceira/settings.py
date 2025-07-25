@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-cs*xa4n5ej!&$yz#n98^t(7df#@_)-l=x$+qmvkd8j@*9i1k4@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['django-finance.netlify.app', 'localhost']
+ALLOWED_HOSTS = ['*',]
 
 
 # Application definition
