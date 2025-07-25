@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-cs*xa4n5ej!&$yz#n98^t(7df#@_)-l=x$+qmvkd8j@*9i1k4@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*',]
+ALLOWED_HOSTS = ['django-finance.netlify.app', 'localhost']
 
 
 # Application definition
@@ -116,12 +116,12 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
-STATIC_URL = '/static/'
-STATICFILES_DIRS = (os.path.join(BASE_DIR, 'templates/static'),)
-STATIC_ROOT = os.path.join('static')  # Directory for static files
+STATIC_URL = 'static/'
+#STATICFILES_DIRS = (os.path.join(BASE_DIR, 'templates/static'),)
+#STATIC_ROOT = os.path.join('static')  # Directory for static files
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')  # Directory for media files
-MEDIA_URL = '/media/'
+#MEDIA_ROOT = os.path.join(BASE_DIR, 'media')  # Directory for media files
+#MEDIA_URL = '/media/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
